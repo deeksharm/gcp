@@ -175,24 +175,6 @@ Then export it to your bucket as CSV, to practise loading files:
 bq extract --destination_format=CSV nyctaxi.2018trips gs://${PROJECT_ID}-raw/nyctaxi/trips_*.csv
 ```
 
----
-
-## 🧹 Clean Up
-Keep the `nyctaxi` dataset and the `-raw` bucket; later labs reuse them. To remove them:
-```bash
-bq rm -r -f -d nyctaxi
-gcloud storage rm -r gs://${PROJECT_ID}-raw
-```
-
----
-
-## 🔁 Knowledge Check
-1. Which `bq load` flag appends to an existing table? → `--noreplace`
-2. Do BigQuery batch load jobs cost money? → **No**; you pay for storage only.
-3. How do you query CSV files in Cloud Storage without loading them? → Create an **external table**.
-
----
-
 **Trainer:** Deeksha Sharma · [LinkedIn](https://www.linkedin.com/in/deekshasharma191196/) · [deekshasharma191196@gmail.com](mailto:deekshasharma191196@gmail.com)
 
-⬅️ [Lab 1.2](Lab-1.2-IAM-Custom-Roles.md) | ➡️ [Lab 1.4](Lab-1.4-Datastream-PostgreSQL-to-BigQuery.md)
+➡️ [Lab 1.4](Lab-1.4-Datastream-PostgreSQL-to-BigQuery.md)
