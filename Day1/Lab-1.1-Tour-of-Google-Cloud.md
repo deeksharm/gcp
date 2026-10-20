@@ -103,6 +103,7 @@ Download this file to your computer (it's reused in Lab 1.3):
 | Storage class | **Standard** |
 | Access control | **Uniform** |
 | Prevent public access | ✅ Enforced |
+**don't select hierarchical namespace as its not support versioning**
 
 3. Click **Create**.
 
@@ -173,14 +174,6 @@ gcloud storage cat ${BUCKET}/notes.txt
 > `gcloud storage cp ${BUCKET}/notes.txt#<generation> ${BUCKET}/notes.txt`
 
 ✅ **Check:** the bucket shows the lifecycle rules, and `notes.txt` has 2 versions.
-
----
-
-## 🧹 Clean Up
-**Keep the bucket and the NYC taxi file**; Lab 1.3 loads it into BigQuery. Remove only the test file:
-```bash
-gcloud storage rm --all-versions ${BUCKET}/notes.txt
-```
 
 ---
 
