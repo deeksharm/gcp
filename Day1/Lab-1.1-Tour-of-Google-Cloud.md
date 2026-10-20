@@ -70,16 +70,6 @@
 2. Find your **lab login ID** in the **Principal** column.
 3. Note the **roles** assigned to you.
 
-| Role type | Example | Scope |
-|---|---|---|
-| **Basic** | `roles/viewer`, `roles/editor`, `roles/owner` | Broad access across all services in the project |
-| **Predefined** | `roles/storage.objectViewer`, `roles/bigquery.dataViewer` | Fine-grained access to one service (least privilege) |
-| **Custom** | Created by you (Lab 1.2) | A hand-picked set of permissions |
-
-4. Click **+ Grant access** (don't save) to see how a role is granted to a principal, then **Cancel**.
-
-> 📝 **Discuss:** why is giving everyone `Editor` a bad practice in production?
-
 ---
 
 ## Task 5. Enable an API
