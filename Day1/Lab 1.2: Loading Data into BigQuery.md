@@ -1,4 +1,4 @@
-# Lab 1.3: Loading Data into BigQuery
+# Lab 1.2: Loading Data into BigQuery
 
 **Day 1 · Official Module: Data Engineering Tasks and Components**
 
