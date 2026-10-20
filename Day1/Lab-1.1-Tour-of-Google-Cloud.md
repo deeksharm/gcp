@@ -88,13 +88,6 @@ Every Google Cloud service is driven by an API that must be **enabled** in the p
 ## Task 6. Create a Cloud Storage bucket (Console)
 Cloud Storage is Google Cloud's **object storage**. Data engineers use it as the **landing zone** of a data lake: raw files (CSV, JSON, Parquet, Avro) land here before they're loaded into BigQuery or processed by pipelines.
 
-| Term | Meaning |
-|---|---|
-| **Bucket** | A container for objects; the name must be **globally unique** |
-| **Object** | A file stored in a bucket |
-| **Location** | Region, dual-region or multi-region (for example `US`) |
-| **Storage class** | Standard, Nearline, Coldline or Archive (based on how often the data is accessed) |
-
 **6.1 Download the sample file**
 Download this file to your computer (it's reused in Lab 1.3):
 **[nyc_tlc_yellow_trips_2018_subset_1.csv](https://storage.googleapis.com/spls/gsp865/OCBL013/nyc_tlc_yellow_trips_2018_subset_1.csv)**
