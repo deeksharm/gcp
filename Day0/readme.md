@@ -20,8 +20,7 @@ How to log in to your **GCP Data Engineer Account Lab** for the Professional Dat
 
 ### Step 2: Open your lab
 1. On the home page, find the card **"GCP Data Engineer Account Lab"**.
-2. Check the **Expires On** date shown on the card.
-3. Click **View Lab**.
+2. Click **View Lab**.
 
 ### Step 3: Start the lab
 1. In the **Lab Control Panel**, click the green **Start** button.
@@ -45,17 +44,6 @@ Once the lab has started, the **Access Details** section on the left shows:
 4. Enter the **loginpassword** and click **Next**.
 5. If prompted, accept the Google Cloud terms of service.
 6. You're now in the **Google Cloud Console**. Check that the lab project is selected in the project drop-down at the top.
-
----
-
-## Useful Panel Sections
-
-Under **More Details** on the right side of the Lab Control Panel:
-
-- **Policies**: what you can and can't do in the lab account
-- **Instructions**: lab-specific notes from the provider
-- **Other Details**: extra account information
-- **Budget Quota**: your remaining lab budget. **Check it regularly**
 
 ---
 
