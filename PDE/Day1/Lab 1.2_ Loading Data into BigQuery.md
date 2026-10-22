@@ -79,6 +79,9 @@ LIMIT 5;
 ✅ **Check:** the query returns 5 rows.
 
 ---
+✅ **Check count of table before new data*
+SELECT count(*) FROM `nyctaxi.2018trips`
+---
 
 ## Task 3. Append data from Cloud Storage (`bq` command line)
 Open **Cloud Shell** and load a second subset of the same data **into the same table**:
@@ -96,6 +99,13 @@ bq load \
 - `--autodetect` infers the schema.
 
 Check the row count:
+---
+---
+✅ **Check count of table after new data*
+SELECT count(*) FROM `nyctaxi.2018trips`
+---
+---
+
 ```bash
 bq show --format=prettyjson nyctaxi.2018trips | grep numRows
 ```
