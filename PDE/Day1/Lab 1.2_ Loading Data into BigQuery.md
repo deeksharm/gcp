@@ -79,7 +79,7 @@ LIMIT 5;
 ✅ **Check:** the query returns 5 rows.
 
 ---
-✅ **Check count of table before new data*
+Check count of table before new data
 SELECT count(*) FROM `nyctaxi.2018trips`
 ---
 
@@ -101,7 +101,6 @@ bq load \
 Check the row count:
 ---
 ---
-✅ **Check count of table after new data*
 SELECT count(*) FROM `nyctaxi.2018trips`
 ---
 ---
