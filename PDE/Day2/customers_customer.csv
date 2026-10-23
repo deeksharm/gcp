@@ -1,0 +1,7 @@
+customer_id,first_name,last_name,company,address,city,state,country,postal_code,phone,email
+1,Asha,Verma,Infotech Ltd,12 MG Road,Bengaluru,KA,India,560001,+91-9800000001,asha.verma@example.com
+2,Ravi,Kumar,DataWorks,45 Park Street,Kolkata,WB,India,700016,+91-9800000002,ravi.kumar@example.com
+3,Meena,Iyer,,8 Marine Drive,Mumbai,MH,India,400020,+91-9800000003,meena.iyer@example.com
+4,John,Smith,CloudCo,221 King St,Toronto,ON,Canada,M5H 1K5,+1-4165550104,john.smith@example.com
+5,Sara,Lee,,77 Orchard Rd,Singapore,,Singapore,238841,+65-65550105,sara.lee@example.com
+6,Karan,Mehta,Analytics Hub,3 Civil Lines,Pune,MH,India,411001,+91-9800000006,karan.mehta@example.com
