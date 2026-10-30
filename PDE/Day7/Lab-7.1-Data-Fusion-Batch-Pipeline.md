@@ -1,4 +1,4 @@
-# Lab 5.3 – Building Batch Pipelines in Cloud Data Fusion
+# Lab 7.1 – Building Batch Pipelines in Cloud Data Fusion
 
 **Course:** Google Cloud Professional Data Engineer – Day 5 (Build Batch Data Pipelines on Google Cloud)
 **Official lab:** Building Batch Pipelines in Cloud Data Fusion
