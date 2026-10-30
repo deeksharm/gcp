@@ -140,7 +140,7 @@ bq mk --table "$PROJECT_ID:$DATASET.taxi_realtime" \
 | Job name | `taxi-stream-01` |
 | Regional endpoint | `us-central1` |
 | Dataflow template | **Pub/Sub Topic to BigQuery** (search "Pub/Sub to BigQuery") |
-| Input Pub/Sub topic | `projects/pubsub-public-data/topics/taxirides-realtime` |
+| Input Pub/Sub subscription(enter data manually) | `projects/pubsub-public-data/topics/taxirides-realtime` |
 | BigQuery output table | `<PROJECT_ID>:pde_df_stream.taxi_realtime` |
 | Optional parameters | as in Step 0.5 |
 
